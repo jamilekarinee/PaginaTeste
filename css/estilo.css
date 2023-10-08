@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none;
+}  
+
+.cabecalho{
+    background-color: #7bff00; 
+    display: flex; 
+    align-items: center; /* centralizar os itens do cabeçalho */
+    padding: 5px; 
+    justify-content: space-between; 
+}
+.cabecalho__detalhes{
+    margin-left: 20px; 
+    display: flex;
+    align-items: center; /* centralizar os itens do cabeçalho */
+}
+.logo{
+    height: 80px;
+    width: 100px;
+} 
+.nomedosite{
+    height: auto; 
+    width: 150px;
+}
+.conheca{
+    font-family: Lato, Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.corpo{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.texto{
+    margin-left: 20px; 
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.imagem_filme{
+    height: 500px; 
+    width: 800px; 
+} 
+.confira{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: Lato, Arial, Helvetica, sans-serif; 
+    font-size: 17px;
+} 
+.trailer{
+    height: auto; 
+    width: 700px; 
+} 
+.rodape{
+    background-color: #7bff00; 
+    text-align: center; 
+    margin-top: 10px; 
+    font-family: Lato, Arial, Helvetica, sans-serif; 
+}
